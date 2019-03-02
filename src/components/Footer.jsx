@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer className='footer'>
         <div className="container">
-          <p className='text-muted'> Copyright ©︎2019 ry-itto All rights Reserved. </p>
+          <p className='text-muted'> Copyright ©︎2019 <a href='https://github.com/ry-itto'>ry-itto</a> All rights Reserved. </p>
         </div>
       </footer>
     );

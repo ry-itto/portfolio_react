@@ -9,9 +9,9 @@ class Welcome extends Component {
         <Header />
         <div style={{margin: 30}}>
           <p className='display-4'>Welcome to My Portfolio!</p>
-          <p className='lead'>このサイトって？</p>
           <div>
             <p><a href='https://github.com/ry-itto'>ry-itto</a>のポートフォリオサイトになります。</p>
+            <p>React の練習がてら作成したので生暖かい目で見てくださると嬉しいです。</p>
           </div>
         </div>
         <Footer />
