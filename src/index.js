@@ -5,6 +5,8 @@ import App from './App'
 // import Welcome from './components/Welcome';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/stylesheets/navbar.css';
+import './stickey-footer.css';
 
 ReactDOM.render(<App />, 
   document.getElementById('root')

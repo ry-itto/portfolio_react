@@ -4,7 +4,7 @@ import NavigationBar from './NavigationBar';
 class Header extends Component{
   render() {
     return ( 
-      <header>
+      <header className='sticky-top'>
         <NavigationBar />
       </header>
     )
