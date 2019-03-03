@@ -13,8 +13,8 @@ class Profile extends Component {
           <Table striped>
             <tbody>
               <tr>
-                <td>名前</td>
-                <td>伊藤 凌也</td>
+                <td>ユーザー名</td>
+                <td>ry-itto</td>
               </tr>
               <tr>
                 <td>大学</td>
