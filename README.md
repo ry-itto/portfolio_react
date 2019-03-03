@@ -66,3 +66,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### デプロイしようとしてもページが表示されなかった時のトラブルシューティング
+
+`BrowserRouter にbasename={process.env.PUBLIC_URL}`を設定してあげる。
+参考：https://medium.com/@Dragonza/react-router-problem-with-gh-pages-c93a5e243819
