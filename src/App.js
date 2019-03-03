@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path='/' component={Welcome} />
             <Route path='/welcome' component={Welcome} />
