@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Table } from 'reactstrap';
 import Header from './Header';
 import Footer from './Footer';
-import facebook_profile_image from '../assets/images/facebook_profile_image.jpg';
 
 class Profile extends Component {
   render() {
@@ -11,7 +10,6 @@ class Profile extends Component {
         <Header />
         <div style={{margin: 30}}>
           <p className='display-4'>Profile</p>
-          {/* <img src={ facebook_profile_image } alt='My profile image' widrh='200px' height='200px' /> */}
           <Table striped>
             <tbody>
               <tr>
